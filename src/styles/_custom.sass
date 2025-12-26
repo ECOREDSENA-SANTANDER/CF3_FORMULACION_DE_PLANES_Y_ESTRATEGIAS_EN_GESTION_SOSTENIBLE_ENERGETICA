@@ -62,3 +62,98 @@ figcaption
   background-image: url("../assets/curso/portada/banner_interno.png") !important
 .titulo-principal.color-acento-contenido .titulo-principal__numero 
   background-color: #212529
+
+.bg1
+  background-color: #A8D08D
+  width: fit-content
+  border-radius: 20px
+.bg2
+  background-color: #B6C1C6
+.bg3
+  background-color: #99CAE5
+.bg4
+  background-color: #EDF0F1
+.titulo-segundo:after 
+  border-left-color: #EDEDED
+  background-color: #007CBE
+
+.cambiartarjeta 
+  background-image: url('../assets/curso/Tema1/verde.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center
+  border-radius: 20px
+  color: black
+
+  &:hover 
+    background-image: url('../assets/curso/Tema1/gris.png')
+    color: white
+
+    /* FORZAR TODO EL TEXTO */
+    p,
+    b,
+    ul,
+    li,
+    span 
+      color: white !important  
+    img 
+      filter: brightness(0) invert(1)
+  
+.img-t
+  width: auto
+  height: auto
+.img-a
+  display: block
+  margin: auto
+.lista-ul--color li > i:first-of-type 
+  color: #87A771
+
+// Tabla personalizada 
+
+/* Tabla base SENA */
+.tabla-b table 
+  width: 100%
+  border-collapse: collapse
+
+.tabla-b th,
+.tabla-b td 
+  border: 1px solid #e0e0e0
+  padding: 8px
+  vertical-align: middle
+/* Celdas */
+.tabla-b th,
+.tabla-b td 
+  border: 1px solid #e0e0e0
+  padding: 8px
+  background-color: #ffffff
+/* Filas con altura fija */
+.tabla-b tr 
+  height: 50px
+/* Encabezados */
+.tabla-b thead th 
+  background-color: #e9ecef
+  font-weight: 600
+  text-align: center
+
+/* Primera columna (verde SENA) */
+.tabla-b tbody td:first-child 
+  background-color: #F6FAF4
+  font-weight: 600
+  text-align: left
+
+/* Texto alineado a la izquierda */
+.tabla-b tbody td 
+  text-align: left
+
+/* Altura uniforme */
+.tabla-b td 
+  height: 38px
+
+
+/* Bloques del cronograma */
+.bloque 
+  display: inline-block
+  width: 10px
+  height: 10px
+  margin-right: 2px
+  background-color: #1f2d3d
