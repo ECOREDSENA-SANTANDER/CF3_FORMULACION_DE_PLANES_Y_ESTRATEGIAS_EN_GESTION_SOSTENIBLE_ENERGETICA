@@ -73,6 +73,26 @@ figcaption
   background-color: #99CAE5
 .bg4
   background-color: #EDF0F1
+.bg5 
+  background-color: #E6F2F9
+.bg6
+  background-color: #DCECD1
+  border-radius: 20px
+.bg7
+  background-color: #DCECD1
+.fondo01
+  background-image: url('../assets/curso/Tema1/fondo1.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+
 .titulo-segundo:after 
   border-left-color: #EDEDED
   background-color: #007CBE
@@ -157,3 +177,35 @@ figcaption
   height: 10px
   margin-right: 2px
   background-color: #1f2d3d
+.linea-tiempo-d.color-primario .linea-tiempo-d__item__number
+  background-color: #99CAE5 !important
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item__content
+    background-color: #99CAE5  !important
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #F4D35E !important
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__content
+    background-color: #E6F2F9 !important
+.tabs-a__tab   
+  display: block
+  width: 100%
+  text-align: left
+  padding: 15px 30px
+  border-radius: 5px
+  line-height: 1.2em
+  &__text
+    overflow: auto
+    text-overflow: initial
+    text-wrap: auto
+.tarjeta.color-acento-botones--borde 
+  background-color: #EDF5E8
+  color: #12263F
+  border: solid 4px #EDF5E8
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+  background-color: #A8D08D !important
+.tabs-a.color-acento-botones .tabs-a__tab:hover, .tabs-a.color-acento-botones .tabs-a__tab:active, .tabs-a.color-acento-botones .tabs-a__tab:focus
+  background-color: #A8D08D !important
+.tabs-a.color-acento-botones .tabs-a__tab__selected:before 
+    background-color: #A8D08D !important
