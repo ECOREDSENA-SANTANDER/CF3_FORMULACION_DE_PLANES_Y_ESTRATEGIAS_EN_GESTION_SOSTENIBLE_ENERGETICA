@@ -411,7 +411,7 @@
           img(src='@/assets/curso/Tema1/img07.png', alt='tema1')
         .col-lg-7
           .row
-            .col-lg-2.mb-3.col-3.col-md-2
+            .col-lg-2.mb-3.col-3.col-md-2.d-none.d-lg-block
               img(src='@/assets/curso/Tema1/img07.svg', alt='tema1')
             .col-lg-12
               p En esta etapa, el Plan de Gestión Sostenible Energética (PGSE) pasa de la formulación teórica a la ejecución práctica. Para lograrlo, cada medida seleccionada debe transformarse en actividades concretas, con responsables, tiempos, recursos y metas verificables. El plan de acción permite organizar la implementación de manera ordenada, secuencial y medible, garantizando que las acciones propuestas sean realizables y alineadas con los objetivos estratégicos del proyecto. A través de esta estructuración se facilita el seguimiento, el control de avances y la toma de decisiones oportunas durante la ejecución del PGSE.
@@ -518,7 +518,7 @@
       p La efectividad del Plan de Gestión Sostenible Energética (PGSE) se evalúa a partir del cumplimiento de las metas establecidas. Estas metas deben ser cuantificables, específicas y directamente relacionadas con el proceso energético intervenido. Se recomienda formular metas más allá del ahorro económico, priorizando indicadores operativos y ambientales. Por ejemplo, en lugar de medir solo el consumo total, es preferible emplear indicadores de intensidad energética (como MWh por unidad producida o kWh / m² climatizado), permitiendo una medición real del desempeño. Las metas deben ser ambiciosas, pero alcanzables, tomando como referencia la línea base definida en la AA2.
       p Sin embargo, definir metas no es suficiente; es indispensable evaluar su viabilidad. Para ello se analizan factores que pueden facilitar o limitar su cumplimiento.
       .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
-        .col-lg-5.col-9.mb-4.col-md-8
+        .col-lg-5.col-9.mb-4.col-md-7
           img(src='@/assets/curso/Tema1/img10.svg', alt='Texto que describa la imagen') 
         .col-lg-7
           .row.bg3.p-3.mb-3
@@ -550,22 +550,147 @@
               img(src='@/assets/curso/Tema1/80.svg', alt='Texto que describa la imagen') 
 
       p De esta manera, el PGSE demuestra que las metas planteadas son medibles, viables y ambientalmente significativas.
+      
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-12
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/Tema1/bombillo.svg")
+            h3.bg8.py-2.w-card-text.text-white Monitoreo, viabilidad social y normativa
+
+      p.mb-4 El éxito del Plan de Gestión Sostenible Energética (PGSE) depende de un seguimiento continuo. Para ello, es indispensable definir #[b indicadores clave de desempeño (KPI - #[em Key Performance Indicators])] que permitan medir el avance, evaluar resultados y garantizar la trazabilidad del plan. Estos indicadores se clasifican en dos categorías:
+
+      TabsB.color-primario.mb-5.escala-grises
+        .py-4.py-md-5(titulo="KPI de desempeño energético" :icono="require('@/assets/curso/Tema1/81.svg')")
+          .row
+            .col-md-12.mb-4.mb-md-0.col-lg-7
+              p.mb-0 Evalúan la eficacia de las acciones implementadas para mejorar la eficiencia energética.
+              p Ejemplos:
+              ul.lista-ul--color
+                li
+                  i.fas.fa-check-circle
+                  |Índice de intensidad energética (MWh / unidad producida).
+
+                li
+                  i.fas.fa-check-circle
+                  |Factor de carga del sistema.
+                li
+                  i.fas.fa-check-circle
+                  |Porcentaje de energía renovable generada in situ.
+            .col-md-7.col-lg-4.d-none.d-lg-block
+              figure
+                img(src='@/assets/curso/Tema1/img11.png', alt='Texto que describa la imagen')
+
+        
+        .py-4.py-md-5(titulo="KPI de desempeño ambiental y social" :icono="require('@/assets/curso/Tema1/84.svg')")
+          .row
+            .col-md-12.mb-4.mb-md-0.col-lg-7
+              p.mb-0 Miden la mitigación del impacto ambiental y el alcance social del plan.
+              p Ejemplos:
+              ul.lista-ul--color
+                li
+                  i.fas.fa-check-circle
+                  |Reducción de emisiones de CO₂ (t / año).
+                li
+                  i.fas.fa-check-circle
+                  |Volumen de recursos naturales ahorrados (m³ de agua, L de combustible, etc.).
+                li
+                  i.fas.fa-check-circle
+                  |Número de actividades de concertación ejecutadas.
+            .col-md-7.col-lg-4.d-none.d-lg-block
+              figure
+                img(src='@/assets/curso/Tema1/img12.png', alt='Texto que describa la imagen')
 
 
+      .row.justify-content-center.align-items-center.mb-4
+        .col-lg-6
+          .cajon.color-acento-contenido.p-4
+            p.mb-0 El monitoreo permanente de estos indicadores alimenta la fase de control, permitiendo realizar ajustes tempranos y asegurar el cumplimiento de los objetivos del PGSE.
+       
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-12.col-12
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/Tema1/bombillo.svg")
+            h3.bg8.py-2.w-card-text.text-white Estrategias de concertación y cumplimiento normativo
 
+      p El componente social es un pilar esencial en la sostenibilidad del proyecto. En este numeral se establece la necesidad de demostrar la viabilidad social, garantizando la aceptación del plan por parte de los grupos de interés.
+      
+      .p-5.fondo2(data-aos="zoom-in-left").mb-4
+        SlyderA(tipo="b").tarjeta.bg9.p-4
+          .row.justify-content-center.align-items-center.py-4
+            .col-md-12.mb-4.mb-md-0.col-lg-7
+              h4 Estrategias de concertación social
+              p Incluyen las acciones de comunicación, diálogo y participación ciudadana para fortalecer la relación con la comunidad.
+              p Acciones sugeridas:
+              ul.lista-ul--color
+                li
+                  i.fas.fa-check-circle
+                  |Realización de mesas de diálogo y socialización.
+                li
+                  i.fas.fa-check-circle
+                  |Presentación clara de beneficios del plan (menor contaminación, ahorro, empleo local, etc.).
+                li
+                  i.fas.fa-check-circle
+                  |Mecanismos de gestión de quejas y sugerencias.
+              p El propósito es asegurar legitimidad, reducir conflictos y favorecer el involucramiento social.
+            .col-md-7.col-lg-4
+              img(src='@/assets/curso/Tema1/img13.png', alt='')
+          
+          .row.justify-content-center.align-items-center.py-4
+            .col-md-12.mb-4.mb-md-0.col-lg-7
+              h4 Cumplimiento de la normativa ambiental y comunitaria
+              p El PGSE debe ajustarse a los requisitos legales de participación y licenciamiento ambiental vigentes. Esto garantiza que la implementación del plan respete el principio de #[b equidad intergeneracional] y cuente con respaldo institucional.
+            .col-md-7.col-lg-4
+              img(src='@/assets/curso/Tema1/img14.png', alt='')
+      
+      
+      
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-12
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/Tema1/bombillo.svg")
+            h3.bg8.py-2.w-card-text.text-white Consolidación presupuestal y recursos para la implementación
 
+      p La etapa final del diseño del PGSE consiste en integrar los aspectos financieros y operativos que garantizarán su ejecución.
+      
+      
+      .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
+        .col-lg-8.mb-4
+          LineaTiempoD.color-primario
+            .row(numero="1" titulo="Presupuesto consolidado")
+              .col-md-12.mb-4.mb-md-0
+                p Debe incluir:
+                ul.lista-ul--color
+                  li
+                    i.fas.fa-check-circle
+                    | Costos de inversión en equipos eficientes y sistemas renovables.
+                  li
+                    i.fas.fa-check-circle
+                    | Costos operativos y de mantenimiento.
+                  li
+                    i.fas.fa-check-circle
+                    | Estimación del beneficio económico asociado al ahorro energético.
+                p Este componente completa el análisis de viabilidad económica desarrollado previamente en la aa2.
+            
+            .row(numero="2" titulo="Estimación y disponibilidad de recursos")
+              .col-md-12.mb-4.mb-md-0
+                p.mb-0 Se detallan los recursos necesarios (humanos, financieros y logísticos) para cada actividad del plan de acción.
+                p Además, se identifican las fuentes de financiación:
+                ul.lista-ul--color
+                  li
+                    i.fas.fa-check-circle
+                    | Capital propio.
+                  li
+                    i.fas.fa-check-circle
+                    | Crédito.
+                  li
+                    i.fas.fa-check-circle
+                    | Incentivos estatales o fondos para energías renovables y eficiencia energética.
+                  p Esta consolidación permite demostrar de manera documentada la #[b factibilidad técnica, social, operativa y financiera del PGSE.]
+        .col-lg-4.col-8.col-md-6
+          img(src='@/assets/curso/Tema1/img15.png', alt='')          
 
-
-
-
-
-
-
-
-
-
-
-
+          
+     
 
 
 
@@ -621,4 +746,11 @@ export default {
 <style lang="sass">
 .tarjeta.color-primario
   background-color: #004B72
+.escala-grises .tabs-b__tab
+  &.tabs-b__tab--active .tabs-b__tab__icon
+    filter: grayscale(0)
+    transition: all 0.2s ease-out
+  .tabs-b__tab__icon
+    filter: grayscale(1)
+    transition: all 0.2s ease-out
 </style>
