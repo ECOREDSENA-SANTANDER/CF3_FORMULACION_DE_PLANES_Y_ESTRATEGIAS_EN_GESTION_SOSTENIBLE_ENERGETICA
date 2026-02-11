@@ -48,7 +48,7 @@
           .overflow-hidden.h-100.cambiartarjeta.p-4(data-aos="fade-left")
             img.img-a.img-t.mb-3.icono-cambia1(src='@/assets/curso/Tema1/11.svg', alt='tema1')
             .p-2.mb-4
-              p #[b Paquete de trabajo 1:] Estudio técnico.
+              p #[b Paquete de trabajo 1:] estudio técnico.
               ul.lista-ul--color
                 li
                   i.fas.fa-check-circle
@@ -60,7 +60,7 @@
           .overflow-hidden.h-100.cambiartarjeta.p-4(data-aos="fade-left")
             img.img-a.img-t.mb-3.icono-cambia1(src='@/assets/curso/Tema1/12.svg', alt='tema1')
             .p-2.mb-4
-              p #[b Paquete de trabajo 2:] Adquisición del sistema.
+              p #[b Paquete de trabajo 2:] adquisición del sistema.
               ul.lista-ul--color
                 li
                   i.fas.fa-check-circle
@@ -72,7 +72,7 @@
           .overflow-hidden.h-100.cambiartarjeta.p-4(data-aos="fade-left")
             img.img-a.img-t.mb-3.icono-cambia1(src='@/assets/curso/Tema1/13.svg', alt='tema1')
             .p-2.mb-4
-              p #[b Paquete de trabajo 3:] Instalación y puesta en marcha.
+              p #[b Paquete de trabajo 3:] instalación y puesta en marcha.
               ul.lista-ul--color
                 li
                   i.fas.fa-check-circle
