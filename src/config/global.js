@@ -257,7 +257,7 @@ export default {
     },
     {
       referencia:
-        'U.S. Department of Energy (DOE), Federal Energy Management Program (FEMP) (2022). Advanced Energy Performance Indicator (EnPI) Tool Training',
+        'U.S. Department of Energy (DOE). Federal Energy Management Program (FEMP) (2022). Advanced Energy Performance Indicator (EnPI) Tool Training',
       link:
         'https://www.energy.gov/eere/iedo/articles/energy-performance-indicator-tool',
     },
@@ -273,12 +273,12 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Milady Tatiana Villamil Castellanos',
+          nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Claudia Johanna Gómez Pérez',
+          nombre: 'Edison Eduardo Mantilla Cuadros',
           cargo: 'Responsable de línea de producción',
           centro: 'Centro Agroturístico - Regional Santander',
         },
@@ -328,7 +328,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '',
+          nombre: 'Laura Paola Gelvez Manosalva',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },

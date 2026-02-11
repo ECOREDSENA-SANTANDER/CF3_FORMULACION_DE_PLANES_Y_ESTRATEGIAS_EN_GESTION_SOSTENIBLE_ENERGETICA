@@ -48,7 +48,7 @@
           .overflow-hidden.h-100.cambiartarjeta.p-4(data-aos="fade-left")
             img.img-a.img-t.mb-3.icono-cambia1(src='@/assets/curso/Tema1/11.svg', alt='tema1')
             .p-2.mb-4
-              p #[b Paquete de trabajo 1:] estudio técnico.
+              p #[b Paquete de trabajo 1:] Estudio técnico.
               ul.lista-ul--color
                 li
                   i.fas.fa-check-circle
@@ -60,7 +60,7 @@
           .overflow-hidden.h-100.cambiartarjeta.p-4(data-aos="fade-left")
             img.img-a.img-t.mb-3.icono-cambia1(src='@/assets/curso/Tema1/12.svg', alt='tema1')
             .p-2.mb-4
-              p #[b Paquete de trabajo 2:] adquisición del sistema.
+              p #[b Paquete de trabajo 2:] Adquisición del sistema.
               ul.lista-ul--color
                 li
                   i.fas.fa-check-circle
@@ -72,7 +72,7 @@
           .overflow-hidden.h-100.cambiartarjeta.p-4(data-aos="fade-left")
             img.img-a.img-t.mb-3.icono-cambia1(src='@/assets/curso/Tema1/13.svg', alt='tema1')
             .p-2.mb-4
-              p #[b Paquete de trabajo 3:] instalación y puesta en marcha.
+              p #[b Paquete de trabajo 3:] Instalación y puesta en marcha.
               ul.lista-ul--color
                 li
                   i.fas.fa-check-circle
@@ -215,7 +215,7 @@
             .col-lg-1.mb-3.col-3.col-md-2
               img(src='@/assets/curso/Tema1/img03.svg', alt='')
             .col-lg-12
-              p El PGSE debe concebirse de manera holística para evitar la transferencia de impactos, es decir, solucionar un problema en una fase del proceso energético generando otro en una etapa diferente o en un medio ambiental distinto. Por ello, es fundamental articular el plan con las cinco etapas del análisis de ciclo de vida (ACV), garantizando coherencia y sostenibilidad a lo largo del proceso.
+              p El PGSE debe concebirse de manera holística para evitar la #[b transferencia de impactos], es decir, solucionar un problema en una fase del proceso energético generando otro en una etapa diferente o en un medio ambiental distinto. Por ello, es fundamental articular el plan con las cinco etapas del #[b análisis de ciclo de vida (ACV)], garantizando coherencia y sostenibilidad a lo largo del proceso.
 
       .row.justify-content-center.align-items-center.mb-0(data-aos='fade-right')
         .col-lg-12
@@ -236,7 +236,7 @@
                     img(src='@/assets/curso/Tema1/002.svg', alt='Texto que describa la imagen')          
                 .col-9.col-lg-10.col-md-11
                   h2.bg4.p-1.text-center.text-black Corrección y cierre de ciclo  
-              p El plan debe contemplar medidas para la etapa de disposición final, como la logística inversa y el manejo responsable de residuos tecnológicos. Estas acciones son clave para asegurar la equidad intergeneracional, reflejando cómo cada intervención contribuye a un resultado sostenible y de mínimo impacto global.
+              p El plan debe contemplar medidas para la etapa de disposición final, como la logística inversa y el manejo responsable de residuos tecnológicos. Estas acciones son clave para asegurar la #[b equidad intergeneracional], reflejando cómo cada intervención contribuye a un resultado sostenible y de mínimo impacto global.
 
       separador
       #t_1_1.titulo-segundo.mb-5(data-aos="zoom-in-left")
@@ -273,7 +273,7 @@
           img(src='@/assets/curso/Tema1/img05.png', alt='')
         .col-lg-8.mb-3
           p.mb-0 Este numeral desarrolla el componente estratégico y comunicacional del PGSE, esencial para asegurar el compromiso institucional y la alineación entre las áreas involucradas.
-          p La misión del PGSE debe ser una declaración breve y precisa que describa el propósito del plan y su alcance operativo. Por ejemplo: "garantizar una gestión energética eficiente, responsable y alineada con la economía circular, minimizando el impacto sobre el aire y el agua en la operación de la infraestructura". Esta misión orienta las acciones diarias y define el sentido del plan dentro de la organización.
+          p La #[b misión del PGSE] debe ser una declaración breve y precisa que describa el propósito del plan y su alcance operativo. Por ejemplo: "garantizar una gestión energética eficiente, responsable y alineada con la economía circular, minimizando el impacto sobre el aire y el agua en la operación de la infraestructura". Esta misión orienta las acciones diarias y define el sentido del plan dentro de la organización.
           p Por su parte, la visión debe proyectar el estado futuro deseado tras la implementación exitosa del PGSE. Esta debe ser inspiradora y ambiciosa, integrando elementos como la economía circular, la reducción del déficit ecológico y la transición energética responsable. La visión funciona como una herramienta de movilización interna, facilitando el compromiso de la alta dirección y comunicando el valor estratégico del plan a los grupos de interés (accionistas, colaboradores y comunidad).
         .col-lg-12 
           p Además, el PGSE debe contar con una justificación sólida, fundamentada en el valor estratégico del plan más allá del ahorro económico. Dicha justificación debe construirse sobre los tres pilares de la sostenibilidad:
@@ -575,7 +575,7 @@
                   |Factor de carga del sistema.
                 li
                   i.fas.fa-check-circle
-                  |Porcentaje de energía renovable generada in situ.
+                  |Porcentaje de energía renovable generada #[em in situ].
             .col-md-7.col-lg-4.d-none.d-lg-block
               figure
                 img(src='@/assets/curso/Tema1/img11.png', alt='Texto que describa la imagen')
@@ -604,7 +604,7 @@
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-6
           .cajon.color-acento-contenido.p-4
-            p.mb-0 El monitoreo permanente de estos indicadores alimenta la fase de control, permitiendo realizar ajustes tempranos y asegurar el cumplimiento de los objetivos del PGSE.
+            p.mb-0 El monitoreo permanente de estos indicadores alimenta la #[b fase de control], permitiendo realizar ajustes tempranos y asegurar el cumplimiento de los objetivos del PGSE.
        
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
         .col-sm-12.col-lg-12.col-12

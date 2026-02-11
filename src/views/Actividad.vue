@@ -189,7 +189,7 @@ export default {
         {
           id: 8,
           texto:
-            'La función principal de un KPI ambiental (Key Performance Indicator) es monitorear la viabilidad financiera del proyecto y su retorno de inversión (TIR).',
+            'La función principal de un KPI ambiental (<i>Key Performance Indicator</i>) es monitorear la viabilidad financiera del proyecto y su retorno de inversión (TIR).',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
