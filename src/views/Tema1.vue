@@ -251,7 +251,7 @@
 
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         h5 Figura 1. 
-        span #[em SMART]
+        span SMART
 
       .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
         .col-lg-12

@@ -87,11 +87,6 @@ export default {
         titulo: 'Glosario',
       },
       {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
-      {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
@@ -113,36 +108,7 @@ export default {
       },
     ],
   },
-  complementario: [
-    {
-      tema: 'Definición estratégica y objetivos del proyecto',
-      referencia:
-        'El Arte de la Guerra (2020). Objetivos “SMART” | Curso de planeación y metas.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=quQKyihbuzo',
-    },
-    {
-      tema: 'Formulación de medidas: tipos y priorización',
-      referencia:
-        'Ministerio de Ambiente de Colombia (2020). Abre Puertas 2020 - Lineamientos para la aplicación de la jerarquía de la mitigación.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=5Hst0PZRW9Y',
-    },
-    {
-      tema: 'Desarrollo de actividades y plan de acción detallado',
-      referencia:
-        'De cero a experto (2020). Qué es un plan de acción, características, estructura y ejemplo.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=u5hJEpgQ1iA',
-    },
-    {
-      tema: 'Metas de desempeño y viabilidad ambiental',
-      referencia:
-        'Energy Efficiency Academy (2022, 12 de septiembre). Introducción a los indicadores de Eficiencia Energética | BIEE.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=1ltSFaLkKX4',
-    },
-  ],
+
   glosario: [
     {
       termino: 'Adaptación climática',
@@ -224,48 +190,42 @@ export default {
     {
       referencia:
         'Comisión Mundial sobre Medio Ambiente y Desarrollo (1987). Nuestro futuro común (Informe Brundtland)',
-      link:
-        'https://es.scribd.com/document/702208243/ONU-1987-Informe-Brundtland-Nuestro-Futuro-Comun', // versión disponible del informe
+      link: '',
     },
     {
       referencia:
         'Global Footprint Network. Huella Ecológica: Conceptos, Medición y Aplicaciones',
-      link: 'https://www.footprintnetwork.org/our-work/ecological-footprint/', // explicación oficial de huella ecológica por Global Footprint Network :contentReference[oaicite:0]{index=0}
+      link: '',
     },
     {
       referencia:
         'Ellen MacArthur Foundation (2017). Introducción a la economía circular',
-      link:
-        'https://www.ellenmacarthurfoundation.org/topics/circular-economy-introduction/overview', // sitio oficial como entrada principal a conceptos de CE :contentReference[oaicite:1]{index=1}
+      link: '',
     },
     {
       referencia:
         'Agencia Internacional de la Energía (IEA) (2023). World Energy Outlook 2023',
-      link: 'https://www.iea.org/reports/world-energy-outlook-2023', // página oficial del reporte WEO 2023 :contentReference[oaicite:2]{index=2}
+      link: '',
     },
     {
       referencia:
         'Ministerio de Ambiente y Desarrollo Sostenible (MADS) de Colombia (2019). Guía de evaluación ambiental estratégica',
-      link:
-        'https://archivo.minambiente.gov.co/images/AsuntosambientalesySectorialyUrbana/pdf/Evaluaci%C3%B3n_Ambiental_Estrategica/Guia_de_evaluci%C3%B3n_ambiental_Estrat%C3%A9gica.pdf',
+      link: '',
     },
     {
       referencia:
         'UNEP & GRID-Arendal (2018). Measuring Progress: Water-related ecosystems and the SDGs',
-      link:
-        'https://sdgs.unep.org/measuring-progress/water-related-ecosystems-and-sdgs/sdgs/pdf/DEWA_Measuring_Progress_2023.pdf',
+      link: '',
     },
     {
       referencia:
         'U.S. Department of Energy (DOE). Federal Energy Management Program (FEMP) (2022). Advanced Energy Performance Indicator (EnPI) Tool Training',
-      link:
-        'https://www.energy.gov/eere/iedo/articles/energy-performance-indicator-tool',
+      link: '',
     },
     {
       referencia:
         'Foro de Economía Digital Business School (2025). Objetivos SMART, definición y ejemplos prácticos',
-      link:
-        'https://foroeconomiadigital.com/blog/objetivos-smart-definicion-y-algunos-ejemplos-practicos/',
+      link: '',
     },
   ],
   creditos: [
@@ -293,7 +253,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Erika Fernanda Mejía Pinzón',
+          nombre: 'Sandra Milena Cristancho',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
