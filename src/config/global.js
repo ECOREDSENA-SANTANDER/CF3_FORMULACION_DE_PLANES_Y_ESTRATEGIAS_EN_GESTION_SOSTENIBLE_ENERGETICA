@@ -94,7 +94,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA_03__22230062_DU.pdf',
+        download: 'downloads/CFA3_22230062_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -253,7 +253,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Sandra Milena Cristancho',
+          nombre: 'Sandra Milena Cristancho Cruz',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
