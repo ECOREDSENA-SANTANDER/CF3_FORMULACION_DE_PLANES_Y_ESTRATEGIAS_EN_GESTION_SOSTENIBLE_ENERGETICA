@@ -252,11 +252,6 @@ export default {
           cargo: 'Experto temático',
           centro: 'Centro Agroturístico - Regional Santander',
         },
-        {
-          nombre: 'Sandra Milena Cristancho Cruz',
-          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
-          centro: 'Centro Agroturístico - Regional Santander',
-        },
       ],
     },
     {
@@ -288,7 +283,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Laura Paola Gelvez Manosalva',
+          nombre: 'Sandra Milena Cristancho Cruz',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
