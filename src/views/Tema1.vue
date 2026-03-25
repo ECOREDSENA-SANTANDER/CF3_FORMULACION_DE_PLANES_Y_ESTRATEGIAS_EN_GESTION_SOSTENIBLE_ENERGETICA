@@ -20,7 +20,7 @@
           LineaTiempoD.color-primario
             .row(numero="1" titulo="Fase de inicio (justificación)")
               .col-md-12.mb-4.mb-md-0
-                p Se define el problema energético - ambiental a intervenir con base en el déficit ecológico y la viabilidad económica identificada previamente. Se formulan los objetivos generales del plan.
+                p Se define el problema energético-ambiental a intervenir con base en el déficit ecológico y la viabilidad económica identificada previamente. Se formulan los objetivos generales del plan.
             .row(numero="2" titulo="Fase de planificación (estrategia)")
               .col-md-12.mb-4.mb-md-0
                 p Constituye el eje central del PGSE. En esta fase se transforman los resultados del análisis de impacto en un plan de acción estructurado, priorizando medidas de prevención y reducción. Se establece cronograma, responsables, recursos y metas específicas.
@@ -342,7 +342,7 @@
               td Acciones que equilibran los impactos irreversibles o no eliminables. Se aplican solo como última alternativa.
               td Programas de reforestación; compensaciones ambientales por uso de suelo.
 
-      h3.bg1.p-2.mb-4 Criterios para la selección de medidas (costo - beneficio, viabilidad y urgencia)
+      h3.bg1.p-2.mb-4 Criterios para la selección de medidas (costo-beneficio, viabilidad y urgencia)
       p.mb-4 La selección de medidas no debe basarse en criterios subjetivos, sino en una evaluación técnica que garantice su efectividad ambiental. La prevención y reducción siempre tendrán prioridad en la jerarquía.
       
       .titulo-sexto.color-acento-contenido(data-aos='fade-right', alt='Muestra los criterios para evaluar medidas: costo-beneficio, viabilidad técnica, urgencia legal y alineación con el ACV, cada uno con ejemplos prácticos.')
@@ -669,7 +669,7 @@
                   li
                     i.fas.fa-check-circle
                     | Estimación del beneficio económico asociado al ahorro energético.
-                p Este componente completa el análisis de viabilidad económica desarrollado previamente en la aa2.
+                p Este componente completa el análisis de viabilidad económica desarrollado previamente en la AA2.
             
             .row(numero="2" titulo="Estimación y disponibilidad de recursos")
               .col-md-12.mb-4.mb-md-0
